@@ -9,5 +9,8 @@ courseMsg = '{0} with Python'.format(courseName)
 seeYouMsg = f'See you on {courseSchedule}'
 
 #Present the three messages to the user: hello, course message, see you message
+print(helloMsg)
+print(courseMsg)
+print(seeYouMsg) 
  
 
