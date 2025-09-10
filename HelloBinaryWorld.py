@@ -25,3 +25,9 @@ oBinValue = bin(oNumValue)[2:]
 #print the binary translation
 print(hBinValue, eBinValue, lBinValue, lBinValue, oBinValue)
 
+#concatanate all the binary values together using the concatenation (+) operator for strings
+binTranslation = hBinValue + ' ' + eBinValue + ' ' + lBinValue + ' ' + lBinValue + ' ' + oBinValue
+
+#output the result
+print(binTranslation)
+
