@@ -4,6 +4,9 @@ courseName = input('What is the name of the course?')
 courseSchedule = input('When is your course?')
 
 #Format a string using the input from the user, mixing literal characters with program variables
+helloMsg = 'Hello %s world' % subject
+courseMsg = '{0} with Python'.format(courseName)
+seeYouMsg = f'See you on {courseSchedule}'
 
 #Present the three messages to the user: hello, course message, see you message
  
