@@ -25,6 +25,24 @@ oNumValue = ord ('o')
 #conver the number for o into binary
 oBinValue = bin (oNumValue) [2:]
 
+
+#TODO: translate World as Well
+
+
+#TODO: ensure all translation have 8 characters by padding the begining with zeros as needed
+
+
+#TODO: use loops to do this without repeating code
+
+
+
+
+
+
+
+
+
+
 #print the binary translation of Hello world
 print (hBinValue, eBinValue, lBinValue, oBinValue)
 
